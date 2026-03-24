@@ -1,0 +1,5 @@
+1. Create an environment
+python3 -m venv ~/coffee_demo
+
+2. Activate the environment
+source ~/coffee_demo/bin/activate

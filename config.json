@@ -1,0 +1,33 @@
+{
+  "height": "1000px",
+  "width": "1800px",
+  "physics": {
+    "enabled": false,
+    "solver": "barnesHut",
+    "minVelocity": 1,
+    "maxVelocity": 100,
+    "stabilization": {
+      "enabled": true,
+      "fit": true
+    },
+    "timestep": 0.5
+  },
+  "layout": {
+    "randomSeed": 2,
+    "improvedLayout": true,
+    "clusterThreshold": 10,
+    "hierarchical": {
+      "enabled": false,
+      "levelSeparation": 200,
+      "nodeSpacing": 250,
+      "treeSpacing": 250,
+      "blockShifting": false,
+      "edgeMinimization": false,
+      "parentCentralization": false,
+      "direction": "LR",
+      "sortMethod": "directed",
+      "shakeTowards": "roots"
+    }
+  },
+  "groups": null
+}
